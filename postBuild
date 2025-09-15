@@ -1,0 +1,4 @@
+#!/bin/bash
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter nbextension enable --py ipympl --sys-prefix
+jupyter serverextension enable voila --sys-prefix
